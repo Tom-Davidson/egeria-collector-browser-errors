@@ -1,0 +1,23 @@
+{
+  "name": "egeria-collector-browser-errors",
+  "version": "0.1.0",
+  "description": "Collect JS errors in the browser and push them to a transporter.",
+  "keywords": [
+    "browser",
+    "errors"
+  ],
+  "author": "Tom Davidson <tom@davidson.me.uk> (https://github.com/Tom-Davidson)",
+  "license": "MIT",
+  "homepage": "https://github.com/Tom-Davidson/egeria-collector-browser-errors#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tom-Davidson/egeria-collector-browser-errors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tom-Davidson/egeria-collector-browser-errors/issues"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
