@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Tom-Davidson/egeria-collector-browser-errors/issues"
   },
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prettify": "prettier --write '{src,tests,config}/**/*.js'",
     "test": "jest --config jest.config.js --coverage",
