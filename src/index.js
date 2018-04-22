@@ -1,6 +1,6 @@
-var somefunction = function() {
+const somefunction = () => {
   return true;
-};
+}
 module.exports = {
-  somefunction: somefunction
+  somefunction
 };
