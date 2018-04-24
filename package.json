@@ -21,7 +21,7 @@
     "prettify": "prettier --write '{src,tests,config}/**/*.js'",
     "test": "jest --config jest.config.js --coverage",
     "prebuild": "rm -Rf dist",
-    "build": "babel --out-dir dist src"
+    "build": "babel --copy-files --out-dir dist src"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
