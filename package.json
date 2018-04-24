@@ -17,9 +17,14 @@
     "url": "https://github.com/Tom-Davidson/egeria-collector-browser-errors/issues"
   },
   "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "prettify": "prettier --write '{src,tests,config}/**/*.js'",
     "test": "jest --config jest.config.js --coverage",
+    "test:watch": "npm run test -- --watch",
     "prebuild": "rm -Rf dist",
     "build": "babel --copy-files --out-dir dist src"
   },
